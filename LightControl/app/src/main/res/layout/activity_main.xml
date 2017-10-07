@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <EditText
+            android:id="@+id/editIP"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="IP Address"
+            android:inputType="textUri"/>
+
+        <Button
+
+            android:id="@+id/btnStart"
+            android:layout_height="wrap_content"
+            android:text="Get Status" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+
+            android:id="@+id/btnRed"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#d6d7d7"
+            android:text="Red Light On" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+
+            android:id="@+id/btnGreen"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#d6d7d7"
+            android:text="Green Light On"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_span="2"/>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+
+            android:id="@+id/btnYellow"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#d6d7d7"
+            android:text="Yellow Light On" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tvReturn"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:hint="Information Desk"/>
+    </TableRow>
+
+
+</TableLayout>
